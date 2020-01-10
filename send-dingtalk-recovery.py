@@ -41,7 +41,7 @@ sendtext = '\n\n >'.join((HOSTNAME,HOSTIP,ITEMNAME,ITEMLASTVALUE,TRIGGERSEVERITY
 
 def send_dingtalk_message(sendtext):
     logger = logging.getLogger(__name__)
-    DINGDING_API_URL="https://oapi.dingtalk.com/robot/send?access_token=0dbf45d37c94185810765c0275dad1443cd009cedbdb672e116a9a6ece314013"
+    DINGDING_API_URL="https://oapi.dingtalk.com/robot/send?access_token=x"
     data = {
         'msgtype': 'markdown',
         "markdown": {
