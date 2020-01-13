@@ -1,3 +1,3 @@
 # zabbix_push
 
-![image](https://github.com/ZuoGuocai/zabbix_push/raw/master/images/sendmap.png)
+![image](https://raw.githubusercontent.com/ZuoGuocai/zabbix_push/master/images/sendmap.png)
