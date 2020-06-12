@@ -9,5 +9,5 @@
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/eip-work/kuboard-press.svg)](https://starchart.cc/eip-work/kuboard-press)
+[![Stargazers over time](https://starchart.cc/ZuoGuocai/zabbix_push.svg)](https://starchart.cc/ZuoGuocai/zabbix_push)
 
