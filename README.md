@@ -1,5 +1,5 @@
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?theme=dark?username=ZuoGuocai&show_icons=true&theme=radical)](https://github.com/ZuoGuocai/github-readme-stats)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?theme=dark?username=zuoguocai&show_icons=true&theme=radical)](https://github.com/ZuoGuocai/github-readme-stats)
 
 
 
