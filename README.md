@@ -1,5 +1,5 @@
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=ZuoGuocai)](https://github.com/ZuoGuocai/github-readme-stats)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=ZuoGuocai?theme=THEME_NAME=dark)](https://github.com/ZuoGuocai/github-readme-stats)
 
 
 作者：依然范特稀西
