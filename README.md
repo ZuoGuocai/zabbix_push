@@ -13,6 +13,45 @@
 https://github.com/ZuoGuocai/myarticles
 
 
+##  Zabbix5.0  + Python3.8 上 zmail 模块server属性找不到规避方法
+
+发邮件这里改成Python原生发邮件的模块
+
+```
+
+import smtplib
+from email.message import EmailMessage
+from email.utils import make_msgid
+
+
+def mail_push(to,subject,content_html):
+    msg = EmailMessage()
+    asparagus_cid = make_msgid()
+    msg.add_alternative(content_html.format(asparagus_cid=asparagus_cid[1:-1]), subtype='html')
+
+    fromEmail = '发件邮箱账号'
+    toEmail = to
+
+    msg['Subject'] = subject
+    msg['From'] = fromEmail
+    msg['To'] = toEmail
+
+    s = smtplib.SMTP('mail.geely.com', 587)
+    s.starttls()
+    s.login(fromEmail, '邮箱密码')
+    s.send_message(msg)
+    s.quit()
+
+
+
+mail_push(to,subject,content_html)
+
+
+```
+
+##  Zabbix5.0  + Python3.8 上 Requests 模块报错解决方法
+
+Requests模块替换为Python原生http协议处理模块urllib3 ，见飞书脚本
 
 
 
