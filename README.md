@@ -55,7 +55,16 @@ Requests模块替换为Python原生http协议处理模块urllib3 ，见飞书脚
 
 
 
+## 注意事项
 
+/usr/lib/zabbix/alertscripts 下 新建的脚本的所有者，所属组 为zabbix，并且具有可执行权限
+
+
+```
+chown zabbix:zabbix  send-email-problems.py
+chmod +x send-email-problems.py
+
+```
 
 
 
