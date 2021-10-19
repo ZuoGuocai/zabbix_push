@@ -36,7 +36,7 @@ def mail_push(to,subject,content_html):
     msg['From'] = fromEmail
     msg['To'] = toEmail
 
-    s = smtplib.SMTP('mail.geely.com', 587)
+    s = smtplib.SMTP('邮件服务器地址', 587)
     s.starttls()
     s.login(fromEmail, '邮箱密码')
     s.send_message(msg)
