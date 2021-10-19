@@ -13,7 +13,7 @@
 https://github.com/ZuoGuocai/myarticles
 
 
-##  Zabbix5.0  + Python3.8 上 zmail 模块server属性找不到规避方法
+##  Zabbix5.0  + Python3.8  zmail 模块server属性找不到规避方法
 
 发邮件这里改成Python原生发邮件的模块
 
@@ -49,7 +49,7 @@ mail_push(to,subject,content_html)
 
 ```
 
-##  Zabbix5.0  + Python3.8 上 Requests 模块报错解决方法
+##  Zabbix5.0  + Python3.8  Requests 模块报错解决方法
 
 Requests模块替换为Python原生http协议处理模块urllib3 ，见飞书脚本
 
